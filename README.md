@@ -15,6 +15,7 @@ php artisan migrate
 # seed
 php artisan db:seed
 
+# start development server
 php artisan serve
 php artisan optimize
 ```
