@@ -26,6 +26,7 @@ class NoteController extends BaseApiController
     public function index()
     {
         $data = $this->model
+            ->orderBy('created_at', 'DESC')
             ->paginate(10)
             ->appends(request()->input());
 
