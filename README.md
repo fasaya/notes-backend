@@ -6,6 +6,7 @@
 
 
 ```bash
+#install the dependencies
 composer install
 
 # migration
